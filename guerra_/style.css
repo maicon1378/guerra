@@ -1,81 +1,90 @@
 /* Estilos gerais */
-#bt{
-    width: 100%;
+#tab {
+
+    margin-left: 30%;
+    height: 200%;
+    border-style: double;
+    border: 5px solid black;
 }
-#bh {
-    width: 100%;
+td {
+    background-color:bisque;
 }
 
-    #ht {
-    background-color:black;
-    border-radius: 1000px;
-    background-image:url();
-    }
+.img {
+    width: fit-content;
+    height: 400%;
+    width: 400px;
+    margin-left: 30% 50%;
+    margin-right: auto;
+    margin-top:0%;
 
-    body {
-    
-    
+}
+
+
+
+
+body {
+
+
     font-family: Gotham;
-        margin: 10;
-        padding: 0;
-    }
-    
-    header {
-        
-        background-color: #04270b;
-        color: #fff;
-        text-align: center;
-        padding: 20px 0;
-        border-radius: 10px;
-        box-shadow:blanchedalmond
- 
-    }
-    
+    margin: 10;
+    padding: 0;
+}
 
-    header h1 {
-        
-       
-    margin: 80;
-    }
-    
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    nav ul li {
-        display: inline;
-        margin-right: 20px;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    section {
-        max-width: 800px;
-        margin: 0 auto;
-        
-       
-    padding: 20px;
-    }
-    
-    footer {
-        
-       
+header {
+
     background-color: #04270b;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-    }
-    
-    /* Estilos específicos para seções */
-    section h2 {
-        
-       
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    box-shadow: blanchedalmond
+}
+
+
+header h1 {
+
+
+    margin: 80;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+
+
+    padding: 20px;
+}
+
+footer {
+
+
+    background-color: #04270b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para seções */
+section h2 {
+
+
     font-size: 25px;
-        margin-bottom: 10px;
-    }
-    
+    margin-bottom: 10px;
+}
